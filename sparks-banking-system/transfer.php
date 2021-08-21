@@ -117,10 +117,12 @@ $result = mysqli_query($conn,$sql);
      <img src="images/map1.png" class="img-fluid mt-4">
    </div> 
    <div class="contact-details">
-     <input type="text" class="form-control mt-4 pl-4" placeholder="Name" name="name1" style="width:350px;" required>
+       <form>
+     <input type="text" class="form-control mt-4 pl-4" placeholder="Name" name="name1"  required>
      <input type="email" class="form-control mt-4 pl-4" placeholder="Email" name="email1">
      <textarea class="form-control mt-4 pl-4"  placeholder="comments if any" name='text' style="height:150px;" required></textarea>
      <button class="button mt-3" id="send" style="width:40%;"> Send </button>
+       </form>
 </div> 
 </div>
 </div>
